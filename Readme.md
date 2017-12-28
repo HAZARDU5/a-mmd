@@ -11,6 +11,13 @@ a-mmd is an A-Frame MMD component which enables MMD models to dance and sing.
 
 [Demo Posing](https://cdn.rawgit.com/takahirox/a-mmd/v1.0.3/index2.html)
 
+## Developers
+
+### Installation
+
+*   Run `npm install` to install dependencies
+*   Run `npm start` to run local web server and access on [http://localhost:3000]
+
 # Dependencies
 
 ## Ammo.js

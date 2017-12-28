@@ -4,6 +4,7 @@
   "description": "A-Frame MMD component",
   "main": "index.js",
   "scripts": {
+    "start": "node_modules/.bin/http-server -p 3000 -o",
     "all": "npm run build && npm run build-uglify",
     "build": "webpack index.js build/a-mmd.js",
     "build-uglify": "webpack -p index.js build/a-mmd.min.js"
@@ -28,9 +29,9 @@
   "homepage": "https://github.com/takahirox/a-mmd#readme",
   "devDependencies": {
     "aframe": "^0.7.1",
+    "http-server": "^0.10.0",
     "mmd-parser": "^1.0.3",
     "three": "^0.87.1",
     "webpack": "^3.8.1"
   }
 }
-
